@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Bangladesh | Admin Access Request</title>
+</head>
+<body>
+    <table width="85%" align="center" cellpadding="10" cellspacing="0">
+        <tr>
+            <td align="center">
+                <h1>Admin Access Request</h1>
+            </td>
+        </tr>
+        <tr><td>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Applicant Information</legend>
+                    <table width="100%" cellpadding="7" cellspacing="0">
+                        <tr><td width="35%"><label for="applicant-name">Name:</label></td><td><input type="text" id="applicant-name" name="applicant_name" required></td></tr>
+                        <tr><td><label for="official-email">Official Email:</label></td><td><input type="email" id="official-email" name="official_email" required></td></tr>
+                        <tr><td><label for="phone">Phone:</label></td><td><input type="tel" id="phone" name="phone" required></td></tr>
+                        <tr><td><label for="organization">Organization:</label></td><td><input type="text" id="organization" name="organization" required></td></tr>
+                        <tr><td><label for="designation">Current Designation:</label></td><td><input type="text" id="designation" name="designation" required></td></tr>
+                        <tr><td><label for="employee-id">Employee ID:</label></td><td><input type="text" id="employee-id" name="employee_id" required></td></tr>
+                    </table>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Access Request</legend>
+                    <table width="100%" cellpadding="7" cellspacing="0">
+                        <tr><td width="35%"><label for="requested-role">Requested Role:</label></td><td>
+                            <select id="requested-role" name="requested_role" required>
+                                <option value="">Select</option>
+                                <option>Data Manager</option>
+                                <option>User Manager</option>
+                                <option>System Administrator</option>
+                            </select>
+                        </td></tr>
+                        <tr><td valign="top"><label for="reason">Reason for Request:</label></td><td><textarea id="reason" name="reason" rows="4" cols="35" required></textarea></td></tr>
+                        <tr><td><label for="supporting-document">Supporting Document:</label></td><td><input type="file" id="supporting-document" name="supporting_document"></td></tr>
+                    </table>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Confirmation</legend>
+                    <p><input type="checkbox" id="confirm-accuracy" name="confirm_accuracy" required> <label for="confirm-accuracy">I confirm that the information provided is accurate.</label></p>
+                </fieldset>
+                <p align="center"><input type="submit" value="Submit"> <input type="reset" value="Reset"></p>
+            </form>
+        </td></tr>
+        <tr><td align="center"><p><a href="../Login/login.html">Login</a> | <a href="../Register/register.html">Registration Options</a> | <a href="../Homepage/View/homepage.html">Homepage</a></p></td></tr>
+
+    </table>
+</body>
+</html>
